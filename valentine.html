@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Joyeux Saint-Valentin 💌</title>
+
+<style>
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    background: white;
+    padding: 40px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    animation: pop 1s ease;
+}
+
+h1 {
+    color: #ff4d6d;
+    font-size: 2.5rem;
+}
+
+p {
+    color: #444;
+    font-size: 1.2rem;
+}
+
+.hearts {
+    font-size: 2rem;
+    margin-top: 15px;
+    animation: float 2s infinite alternate;
+}
+
+@keyframes pop {
+    from { transform: scale(0); }
+    to { transform: scale(1); }
+}
+
+@keyframes float {
+    from { transform: translateY(0px); }
+    to { transform: translateY(-10px); }
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+    <h1>Joyeux Saint-Valentin 💖</h1>
+    <p>À mes copines incroyables ✨  
+    Vous êtes des soleils dans ma vie.</p>
+    <div class="hearts">💗💐🌸💞</div>
+</div>
+
+</body>
+</html>
